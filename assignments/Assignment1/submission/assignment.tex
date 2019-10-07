@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                       Assignment 1                   %
+%                                                      %
+% Author: Traiko Dinev          					   %
+%                                                      %
+% Based on the Cleese Assignment Template for Students %
+% from http://www.LaTeXTemplates.com.				   %
+%                                                      %
+% Original Author: Vel (vel@LaTeXTemplates.com)		   %
+%													   %
+% License:											   %
+% CC BY-NC-SA 3.0 									   %
+% (http://creativecommons.org/licenses/by-nc-sa/3.0/)  %
+% 													   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%--------------------------------------------------------
+%   IMPORTANT: Do not touch anything in this part
+\documentclass[12pt]{article}
+\input{style.tex}
+
+\newcommand{\assignmentQuestionName}{Question}
+
+
+
+    \newcommand{\assignmentClass}{IAML (LEVEL 10/11) -- INFR10069/11152/11182}
+
+
+\newcommand{\assignmentTitle}{Assignment\ \#1}
+\newcommand{\assignmentWarning}{NO LATE SUBMISSIONS} % 
+\newcommand{\assignmentDueDate}{Monday,\ October\ 14,\ 2019 @ 16:00}
+%--------------------------------------------------------
+
+%--------------------------------------------------------
+%   IMPORTANT: Specify your Student ID below [You will need to uncomment the line, 
+%	else compilation will fail]. Make sure to specify your student ID correctly, otherwise
+%   we may not be able to identify your work an dyou will be marked as missing.
+\newcommand{\assignmentAuthorName}{s1234567}
+%--------------------------------------------------------
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\assignmentSection{Important Information}
+
+\noindent \textbf{It is very important that you read and follow the instructions below to the letter - we will not be responsible for incorrect marking due to non-standard practices.}
+
+\section*{General Instructions}
+\begin{itemize}
+\item This assignment is formative. Nonetheless, we will provide certain feedback on your answers. While you should use the providede notebooks, we only require you submit answers to Question 2.2, Question 2.4, Question 4.3 and Question 4.4.
+\item In order to simplify the submission and speed up the marking process, we have provided this template for filling in your answers to the questions. You will see that each question is individually annotated, and there is space for you to input your answer within the \texttt{\textbackslash answer} environment. \textbf{DO NOT Modify} this template in any other way except where noted.
+\item Collaboration: You may discuss the assignment with your colleagues, provided that the writing that you submit is entirely your own. That is, you must \textbf{NOT} borrow actual text or code from others. We ask that you provide a list of the people who you've had discussions with (if any). Please refer to the \href{http://web.inf.ed.ac.uk/infweb/admin/policies/academic-misconduct}{Academic Misconduct} page for what consistutes a breach of the above.
+\item You should have enough space in the answers boxes to answer all questions. Please do not change the heights of the answer boxes -- this will greatly speed up grading. In fact, most answer boxes are longer than needed so if you don't have enough space, you can definitely shorten your answer.
+\end{itemize}
+
+\section*{Assignment Structure}
+\begin{itemize}
+\item This assignment is formative so that you can get familiar with the Gradescope system and so we can provide formative feedback on select questions. It still has a similar structure to the graded Assignment 2. 
+\end{itemize}
+
+\section*{Submission Mechanics}
+\textbf{Important: \textsl{You must submit this assignment by Monday 14/10/2019 at 16:00. We do not accept Late Submissions for this coursework, except in the case of mitigating circumstances. Please refer to the \href{http://web.inf.ed.ac.uk/infweb/student-services/ito/admin/coursework-projects/late-coursework-extension-requests}{ITO Website} for further details.}}\\[5pt]
+
+\begin{itemize}
+\item We will use the Gradescope submission system for uploading assignments. Submission is in PDF Format (compilation of this latex document after filling in your answers).
+\item Make sure to input your Student ID in place of the above placeholder. You can do this by modifying line 33 in this tex-file.
+\item Make sure that you have filled in all the answers.
+\item Input your answers \textbf{ONLY} in the textboxes provided (this includes any images you may be asked for). \textbf{DO NOT Modify} this template in any other way.
+\end{itemize}
+
+\section*{Gradescope Instructions}
+You should receive an email titled "Welcome to Gradescope for IAML (Level 10/11)" in your student mailbox (e.g. s1234567@sms.ed.ac.uk). First you should set a password for your Gradescope account and remember it. \textbf{You will use the same account for Assignment 2} (and that one's graded), so make sure you have access to it! To submit:
+
+\begin{itemize}
+\item Run \texttt{pdflatex assignment.tex} 2 times to compile this into \texttt{assignment.pdf}
+\item Log on to Gradescope and select \texttt{Assignment 1} under Assignments.
+\item Submit the generated pdf. 
+\end{itemize}
+
+The following are links to Gradescope's own instructions for using the system and submitting:
+\begin{itemize}
+    \item \href{https://www.youtube.com/watch?time_continue=2&v=KMPoby5g_nE}{An instructional video from Gradescope on their submission system}
+    \item \href{https://www.gradescope.com/help}{A link to Gradescope's help page}
+\end{itemize} 
+
+\clearpage
+\assignmentSection{Part A: 20-NewsGroups }
+% 
+
+
+\section*{Na\"ive Bayes}
+\subsubsection*{Question 2.2 (4 points)}
+\begin{enumerate}
+    \item [1.] [Text] What is the assumption behing the Naive Bayes Model?
+    \item [2.] [Text] What would be the main issue we would have to face if we didn't make this assumption?
+\end{enumerate}
+
+\answer[10em]{\textbf{Answer Box (1.)}:\\%
+    % Fill in this box with your answer to part 1
+}
+
+
+\answer[15em]{\textbf{Answer Box (2.)}:\\%
+    % Fill in this box with your answer to part 1
+}
+
+\subsubsection*{Question 2.6 (3 points)}
+[Text] Comment on the confusion matrix from the previous question. Does it look like what you would have expected? Explain.
+
+
+
+\answer[15em]{\textbf{Answer Box (1.)}:\\%
+    % Fill in this box with your answer to part 1
+}
+
+
+% \answer[15em]{\textbf{Answer Box (2.)}:\\%
+%     % Fill in this box with your answer to part 2
+%     \begin{lstlisting}[breaklines=true]
+%         import os;
+%         example = "code";
+%     \end{lstlisting}
+% }
+
+
+
+%============================================================================%
+
+\assignmentSection{Part B: Automotive Dataset}
+% 
+
+
+\section*{Multivariate Linear Regression}
+\subsubsection*{Question 4.3 (10 points)}
+In class we discussed ways of preprocessing features to improve performance in such cases.
+\begin{enumerate}
+    \item [1.] [Code] Transform the `engine-size` attribute using an appropriate technique from the lectures (document it in your code) and show the transformed data (scatter plot).
+    \item [2.] [Code] Then retrain a (Multi-variate) LinearRegression Model (on all the attributes including the transformed `engine-size`) and report $R^2$ and RMSE. 
+    \item [3.] [Text] How has the performance of the model changed when compared to the previous result? and why so significantly?
+\end{enumerate}
+
+\begin{code}{Answer Box (1.)}{25em}
+    Enter your code for part 1 here.
+
+    import python;
+    example = 'code';
+\end{code}
+
+
+\begin{code}{Answer Box (2.)}{25em}
+    Enter your code for part 2 here.
+
+    import python;
+    example = 'code';
+\end{code}
+
+
+\answer[15em]{\textbf{Answer Box (3.)}:\\%
+    % Fill in this box with your answer to part 2
+}
+
+
+
+
+\subsubsection*{Question 4.4 (10 points)}
+The simplicity of Linear Regression allows us to interpret the importance of certain features in predicting target variables. However this is not as straightforward as just reading off the coefficients of each of the attributes and ranking them in order of magnitude.
+
+\begin{enumerate}
+    \item[1] [Text] Why is this? How can we linearly preprocess the attributes to allow for a comparison? Justify your answer.
+    \item[2] [Code] Perform the preprocessing you just mentioned on the transformed data-set from Question 4.3, retrain the Linear-Regressor and report the coefficients in a readable manner. Tip: To simplify matters, you may abuse standard practice and train the model once on the entire data-set with no validation/test set.
+    \item[3] [Text] Which are the three (3) most important features for predicting price under this model?
+\end{enumerate}
+
+\answer[15em]{\textbf{Answer Box (1.)}:\\%
+    % Fill in this box with your answer to part 1
+}
+
+
+\begin{code}{Answer Box (2.)}{25em}
+    Enter your code for part 2 here.
+
+    import python;
+    example = 'code';
+\end{code}
+
+
+\answer[15em]{\textbf{Answer Box (3.)}:\\%
+    % Fill in this box with your answer to part 2
+}
+
+
+%============================================================================%
+
+\end{document}
