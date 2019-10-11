@@ -11,7 +11,7 @@ This assignment is formative and such will not count towards your final grade. N
 
 We will be using [Gradescope](https://www.gradescope.com/) for submissions. Submission instructions will be released separately shortly. You will be using a separate Latex-based file where you would copy your answers and/or code.
 
-**IMPORTANT: Only specific questions need to be submitted. These are Question 2.2, Question 2.4, Question 4.3 and Question 4.4,**
+**IMPORTANT: Only specific questions need to be submitted. These are Question 2.2, Question 2.6, Question 4.3 and Question 4.4,**
 
 The submission deadline for this assignment by **Monday 14/10/2019 at 16:00**. 
 
